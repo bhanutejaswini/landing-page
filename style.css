@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: 1px solid #3882f6;
+}
+
+img {
+  border-radius: 10px;
+}
+
+p {
+  color: #1f2937;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+/* Header section */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Home/Hero section */
+
+.home {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 15px;
+  align-items: center;
+}
+
+.home-left,
+.home-right {
+  max-width: 400px;
+}
+
+.home h1,
+.home p {
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Main section */
+.main {
+  padding: 70px 230px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card img {
+  border: 3px solid #3882f6;
+  margin-bottom: 3px;
+}
+
+/* Testimonial/Quote section */
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 70px 240px;
+}
+
+.testimonial-text {
+  font-size: 36px;
+  opacity: 0.6;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.testimonial-author {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+/* Call to action section */
+.call-to-action {
+  background-color: #3882f6;
+  margin: 60px 150px;
+  padding: 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-heading {
+  margin-bottom: 3px;
+}
+
+.call-to-action p {
+  color: #e5e7eb;
+}
+
+.call-to-action button {
+  border: 1px solid #e5e7eb;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+/* Footer section */
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
